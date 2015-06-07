@@ -43,7 +43,10 @@
   <ItemGroup>
     <Compile Include="AllSubsetOfASet.cs" />
     <Compile Include="BinaryOperation.cs" />
+    <Compile Include="CompositeDecoratorPattern.cs" />
+    <Compile Include="ExtensionMethodUsingMixin.cs" />
     <Compile Include="Fibonacci Number.cs" />
+    <Compile Include="FindPrimeNumber.cs" />
     <Compile Include="Node.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

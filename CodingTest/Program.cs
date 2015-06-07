@@ -19,10 +19,20 @@ namespace CodingTest
             //Console.ReadLine();
 
             //get all subsets
-            List<int> set = new List<int> { 10, 20, 30 };
-            List<List<int>> allset = new List<List<int>>();
-            allset = AllSubsetOfASet.getSubSets(set);
-            Console.ReadLine();
+            //List<int> set = new List<int> { 10, 20, 30 };
+            //List<List<int>> allset = new List<List<int>>();
+            //allset = AllSubsetOfASet.getSubSets(set);
+            //Console.ReadLine();
+            int total;
+            var n = FindPrimeNumber.PrimeNumber(100,out total);
+            Console.WriteLine("total number of prime number is {0}", total);
+            
+            foreach(var i in n)
+            {
+                Console.WriteLine("\t{0}", i);
+            }
+            Console.ReadKey();
+            
         }
 
         public static bool IsUniqueChar(string str)

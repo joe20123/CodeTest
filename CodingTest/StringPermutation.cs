@@ -8,10 +8,10 @@ namespace CodingTest
 {
     public class StringPermutation
     {
-        public static List<string> getStringPermutaion(string input)
-        {
-            List<string> result = new List<string>();
+        //public static List<string> getStringPermutaion(string input)
+        //{
+        //    List<string> result = new List<string>();
 
-        }
+        //}
     }
 }
